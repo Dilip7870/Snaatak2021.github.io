@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snaatak2021</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(92, 155, 195);">
+    <script src="script.js"></script>
+    <img src="nav.jpeg.png" >
+
+     <div id="Box">
+           <h3>Search Your Result</h3>
+           <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+               <label> Search By : *</label> <br>
+                 <select name="plan" id="plan">
+                    <option value="--Select--">--Select--</option>
+                    <option value="By University Reg No" required>By University Reg No</option>
+                  </select><br><br>
+           
+                 <label for="lname">University Registration Number :*</label><br>
+              <input type="Number" id="lname" name="lname" value="" required><br><br>
+  
+             <input type='button' 
+                  onclick='tableFromJson()' id='bt'
+                   value='Search' style="color : whitesmoke" />
+                    <p id='showData'></p>
+           </form>
+         </div>
+   
+    
+    <div id="footer">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col">
+                    <div class="column">
+                        <h4>"National Informatics Centre (NIC)"</h4>
+                        <p class="text" style="margin-top: 10px;">
+                        " National Informatics Centre (NIC) was established in1976, and has
+                        since emerged as a "prime builder" of e-Government / e-Governence 
+                        applications up to the grassroots level as well as a promoter of digital 
+                        opportunities for substainable development. " </p>
+                        <a href="https://www.nic.in/" target="_blank" style="color: white;
+                        font-size: italic; text-decoration: underline;"> More Info...</a>
+                        </p>
+                        </div>
+                    <div class="column">
+                        <h4>"Useful Links"</h4>
+                        <ul>
+                            <li>"1.&nbsp;"
+                                <a href="https://nsp.gov.in/" target="_blank" style="color: white; text-decoration: none;">National Scholarship Portal</a>
+                            </li>
+                            <li>"2.&nbsp;"
+                                <a href="https://state.bihar.gov.in/educationbihar/Citizen.html" target="_blank" style="color: white; text-decoration: none; "
+                                >Education Department Website</a>
+                            </li>
+                            <li>"3.&nbsp;"
+                                <a href="https://medhasoft.bih.nic.in/" target="_blank" style="color: white; text-decoration: none;">MedhaSoft</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>"Helpdesk"</h4>
+                        <p><a href="tel:+91-9534547098" style="color: white; text-decoration: none;">
+                        <span class="glyphicon-earphone" aria-hidden="true" style="color: white; text-decoration: none;">
+                                </span>
+                            "+91-9534547098 ( Raj Kumar )"</a><br>
+                            <a href="tel:+91-9031085130" style="color: white; text-decoration: none;">
+                                <span class="glyphicon-earphone" aria-hidden="true" style="color: white; text-decoration: none;">
+                                        </span>
+                                    "+91-9031085130 ( Kumar Indrajeet )"</a><br>
+                        </p>
+                        <p style="text-align: left"> "For any query and suggestion mail us on "
+                         <b>mkuysnatakhelp@gmail.com</b></p>
+                    </div>
+                    </div>
+             </div>
+                   
+                    <div class="footer_bottom">
+                        <p class="copyright">"Copyright @ 2021"</p>
+                        <p class="developer">"Software Solutions Provided by"</p>
+                    </div>
+            
+     </div>
+                  </div>
+
+                </div>
+        
+      
+</body>
+</html>
